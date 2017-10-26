@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+}
+main {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3969f9;
+  padding: 10px;
+}
+#title {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+#survey-form {
+  background-color: #FAFAFA;
+  width: 930px;
+  min-width: 275px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 1px;
+}
+@media screen and (max-width: 1225px) {
+  #survey-form {
+  width: 80%;
+  min-width: 310px;
+  }
+}
+#description {
+  text-align: center;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+label {
+  text-align: right;
+  padding: 20px 0px 20px 20px;
+}
+@media screen and (max-width: 530px) {
+  #grid {
+    grid-template-columns: 1fr;
+  }
+  label {
+  text-align: left;
+  }
+}
+input[type=text] {
+  width: 60%;
+  min-width: 140px;
+  padding: 5px 5px;
+  margin: 10px 20px;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 60%;
+  min-width: 140px;
+  padding: 5px 5px;
+  margin: 10px 20px;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 60%;
+  min-width: 140px;
+  padding: 5px 5px;
+  margin: 10px 20px;
+  box-sizing: border-box;
+}
+select {
+  width: 150px;
+  padding: 5px 5px;
+  margin: 12px 20px;
+  background-color: #DDDDDD;
+  border-radius: 3px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+input[type=radio] {
+  margin: 10px 20px;
+}
+input[type=checkbox] {
+  margin: 10px 20px;
+}
+textarea {
+  width: 60%;
+  min-width: 140px;
+  height: 75px;
+  padding: 5px 5px;
+  margin: 10px 20px;
+  border-radius: 3px;
+}
+.space {
+  height: 20px;
+}
+#submit {
+  background-color: #59ACE0;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  display:block;
+  margin: 0px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
